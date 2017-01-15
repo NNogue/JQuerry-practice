@@ -1,2 +1,2 @@
 # JQuerry-practice
-Learning JQuerry
+Learning JQuerry and Bootstrap
