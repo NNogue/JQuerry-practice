@@ -1,0 +1,15 @@
+.panel{
+	border: blue 1px solid;
+	width: 33%;
+}
+
+.panel h3{
+	margin:0px;
+	padding:10px;
+	background-color: blue;
+	color: white;
+}
+
+.panel p{
+	padding: 10px;
+}

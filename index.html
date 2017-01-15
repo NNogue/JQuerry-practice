@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuerry</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header>
+		<h1 class="text-center">JQuerry</h1>
+	</header>
+	<div class="container">
+		<button id="button1">button1</button>
+	</div>
+
+	<div class="panel" id="panel1">
+		<h3>Panel 1</h3>
+		<p>This is panel 1</p>
+	</div>
+		
+
+	<script src="jquerry.js"></script>
+
+	<script>
+		$(function() {
+			$('#button1').on('click', function() {
+				$('#panel1').slideToggle();
+			})			
+		})
+	</script>
+
+
+
+
+</body>
+</html>
+
