@@ -8,13 +8,34 @@
 	<header>
 		<h1 class="text-center">JQuerry</h1>
 	</header>
-	<div class="container">
-		<button id="button1">button1</button>
+	<div class="container" id='buttons'>
+		<button class="button" id="button1" data-panel="panel1">button1</button>
+		<button class="button" id="button2" data-panel="panel2">button2</button>
+		<button class="button" id="button3" data-panel="panel3">button3</button>
+		<button class="button" id="button4" data-panel="panel4">button4</button>
 	</div>
 
-	<div class="panel" id="panel1">
-		<h3>Panel 1</h3>
-		<p>This is panel 1</p>
+	<div class="panels">
+		<div class="container">
+			<div class="panel" id="panel1">
+				<h3>Panel 1</h3>
+				<p>This is panel 1</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="panel" id="panel2">
+				<h3>Panel 2</h3>
+				<p>This is panel 2</p>
+			</div>
+		</div>
+		<div class="panel" id="panel3">
+			<h3>Panel 3</h3>
+			<p>This is panel 3</p>
+		</div>
+		<div class="panel" id="panel4">
+			<h3>Panel 4</h3>
+			<p>This is panel 4</p>
+		</div>
 	</div>
 		
 
@@ -22,10 +43,11 @@
 
 	<script>
 		$(function() {
-			$('#button1').on('click', function() {
-				$('#panel1').slideToggle();
+			$('.button').on('click', function() {
+				var panelId = $(this).attr('data-panel');
+				$('#'+panelId).slideToggle();
 			})			
-		})
+		})																																																																																				
 	</script>
 
 

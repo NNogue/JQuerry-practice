@@ -1,6 +1,43 @@
-.panel{
+body{
+	margin:0;
+	padding:0;
+	background-color: #ccc
+}
+
+header{
+	text-align: center;
+	background: #999;
+	margin: 0;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#buttons{
+	margin: 10px;
+	border: #cccccc 2px solid;
+	text-align: center;
+	padding: 10px 0;
+}
+.button{
+	padding: 20px;
+	margin: auto;
+	color: #fff;
+	background: #666;
+	border: black 2px solid;
+	border-radius: 5px
+}
+
+/*Panels*/
+
+.panels{
+	text-align: center;
+	width: 100%;
+}
+.panel{ 
+	margin: 0 2.3%;
 	border: blue 1px solid;
-	width: 33%;
+	width: 20%;
+	float: left;
 }
 
 .panel h3{
@@ -8,6 +45,7 @@
 	padding:10px;
 	background-color: blue;
 	color: white;
+	
 }
 
 .panel p{
