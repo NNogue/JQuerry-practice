@@ -29,16 +29,41 @@ header{
 
 /*Panels*/
 
+.pan {
+	width: 100%;
+	margin-color: red;
+}
 
 .panels{
 	text-align: center;
 	width: 100%;
 }
-.panel{ 
-	margin: 0 2.3%;
+#panel1{
+	position: fixed;
+	margin: 0 0 0 2.3%;
 	border: blue 1px solid;
 	width: 20%;
-	float: left;
+}
+
+#panel2{
+	position: fixed;
+	margin: 0 0 0 24.6%;
+	border: blue 1px solid;
+	width: 20%;
+}
+
+#panel3{
+	position: fixed;
+	margin: 0 0 0 46.9%;
+	border: blue 1px solid;
+	width: 20%;
+}
+
+#panel4{
+	position: fixed;
+	margin: 0 0 0 70.2%;
+	border: blue 1px solid;
+	width: 20%;
 }
 
 .panel h3{
